@@ -1,7 +1,10 @@
-# location
+# geo-location-grabber
 
-use this only for educational purposes
+Use this only for educational purposes.
 
-### Starting from scratch
+### installion-guid
+	git clone https://github.com/coder-kks/geo-location-grabber.git
 	cd location
 	php -S localhost:"your port no."
+
+
