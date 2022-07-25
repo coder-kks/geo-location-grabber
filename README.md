@@ -8,3 +8,4 @@ Use this only for educational purposes.
 	php -S localhost:"your port no."
 
 
+# how it works
