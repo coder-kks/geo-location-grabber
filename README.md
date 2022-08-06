@@ -9,4 +9,5 @@ Use this only for educational purposes.
 
 
 # How it works
-![Untitled drawing](https://user-images.githubusercontent.com/106585291/180828025-ba4ca215-c196-4c35-b5c7-bbfcf9f509c4.png)
+
+![Untitled drawing](https://user-images.githubusercontent.com/106585291/183245212-acb80e4c-bf16-4331-8469-72eef756a52c.svg)
