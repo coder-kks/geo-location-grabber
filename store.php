@@ -18,7 +18,7 @@ if ($mysqli -> connect_errno) {
 $lat = $_GET["lat"];
 $long = $_GET["long"];
 $ip = $_SERVER["REMOTE_ADDR"];
-	$sql = "INSERT INTO users (lat,long,ip)
+	$sql = "INSERT INTO tablename (lat,long,ip)
 VALUES ('$lat', '$long', '$ip')";
 
 if ($mysqli->query($sql) === TRUE) {
