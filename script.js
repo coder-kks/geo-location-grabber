@@ -8,11 +8,8 @@ function getLocation() {
   }
 }
 
-
-
-
 function showPosition(position) {
   const xhttp = new XMLHttpRequest();
-  xhttp.open("GET", "location.php?lat=" + position.coords.latitude + "&long=" + position.coords.longitude );
+  xhttp.open("GET", "store.php?lat=" + position.coords.latitude + "&long=" + position.coords.longitude );
   xhttp.send();
 }
