@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <script src="script.js" defer></script>
-</head>
-<body onload="getLocation()">
 
 
 <?php 
@@ -16,10 +10,6 @@ fwrite($myfile, $txt);
 fclose($myfile);
 
 
-$dbhost = $_POST['dbhost'];
-$dbuser = $_POST['dbusr'];
-$pwd = $_POST['dbpassowrd'];
-$name = $_POST['dbname'];
 
 
 
@@ -46,10 +36,4 @@ if ($mysqli->query($sql) === TRUE) {
 
 $conn->close();
 
-
- ?>
-  
-
-</body>
-</html>
 
